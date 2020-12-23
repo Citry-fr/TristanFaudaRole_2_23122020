@@ -1,0 +1,52 @@
+nav {
+  font-size: 1em;
+  width: 500px;
+}
+
+nav ul {
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+nav #sign {
+  color: #0065fc;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  justify-content: space-between;
+}
+
+header img {
+  width: 95px;
+  align-self: center;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav div:hover {
+  border-top: 3px solid #0065fc;
+}
+nav a:hover {
+  color: #0065fc;
+  font-weight: bold;
+}
+
+nav div {
+  margin-top: 0px;
+  height: 60px;
+  width: 167px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
