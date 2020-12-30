@@ -8,6 +8,7 @@ section .activityCards {
   grid-template-columns: repeat(4, 304px);
   grid-template-rows: repeat(10, 10px);
   gap: 35px;
+  margin-bottom: 100px;
 }
 
 section .one {
