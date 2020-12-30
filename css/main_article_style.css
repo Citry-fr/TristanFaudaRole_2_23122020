@@ -31,9 +31,22 @@ article .image {
   margin-bottom: 0;
 }
 
-article .card img {
+article #one img,
+article #two img,
+article #three img,
+article #five img {
   width: 300px;
   margin: -45px 0 0 -45px;
+}
+
+article #four img {
+  width: 300px;
+  margin: -90px 0 0 -55px;
+}
+
+article #six img {
+  width: 250px;
+  margin: -130px 0 0 0px;
 }
 
 article .desc {
