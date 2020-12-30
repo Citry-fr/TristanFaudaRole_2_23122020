@@ -32,13 +32,25 @@ header img {
 
 nav li {
   text-align: center;
+  width: 300px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
 }
 
-nav div:hover {
-  border-top: 3px solid #0065fc;
+nav .heb {
+  border-top: #0065fc 2px solid;
 }
+nav .heb a {
+  color: #0065fc;
+}
+
 nav a:hover {
   color: #0065fc;
+}
+
+nav li:hover {
+  border-top: #0065fc 2px solid;
 }
 
 nav div {
