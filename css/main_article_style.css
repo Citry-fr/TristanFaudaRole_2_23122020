@@ -1,9 +1,12 @@
+main #artasi {
+  justify-content: space-between;
+}
+
 article {
   background-color: #f2f2f2;
   padding: 40px;
   padding-top: 30px;
   border-radius: 25px;
-  width: auto;
 }
 
 article h3 {
@@ -24,38 +27,19 @@ article .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-article .image {
-  overflow: hidden;
+article .image .cover {
+  width: 245px;
   height: 125px;
+  object-fit: cover;
   border-radius: 20px 20px 0 0;
-  margin-bottom: 0;
-}
-
-article #one img,
-article #two img,
-article #three img,
-article #five img {
-  width: 300px;
-  margin: -45px 0 0 -45px;
-}
-
-article #four img {
-  width: 300px;
-  margin: -90px 0 0 -55px;
-}
-
-article #six img {
-  width: 250px;
-  margin: -130px 0 0 0px;
 }
 
 article .desc {
-  margin-left: 10px;
-  margin-top: 0;
+  padding: 10px;
 }
 
 article .desc h4 {
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 5px;
   font-weight: bold;
 }
@@ -78,4 +62,26 @@ article #cards {
   display: grid;
   grid-template-columns: 245px 245px 245px;
   gap: 35px 50px;
+}
+
+article #more {
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+article #more a {
+  font-weight: bold;
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+article .card:hover {
+  border: 2px solid #0065fc;
+}
+
+article #more a:hover {
+  color: #0065fc;
 }
