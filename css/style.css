@@ -11,3 +11,11 @@
   width: 70%;
   margin: auto;
 }
+
+@media all and (max-width: 767px) {
+  #bloc_page {
+    width: auto;
+    margin-left: 76px;
+    margin-right: 76px;
+  }
+}

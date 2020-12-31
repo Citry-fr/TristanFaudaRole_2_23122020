@@ -10,20 +10,28 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" media="all and (max-width: 1199px)" href="css/header_style.css">
+        <link rel="stylesheet" media="all and (max-width: 767px)" href="css/header_style.css">
         <link rel="stylesheet" href="css/header_style.css">
         <link rel="stylesheet" href="css/main_header_style.css">
+        <link rel="stylesheet" media="all and (max-width: 767px)" href="css/main_header_style.css">
         <link rel="stylesheet" href="css/main_article_style.css">
+        <link rel="stylesheet" media="all and (max-width: 767px)" href="css/main_article_style.css">
         <link rel="stylesheet" href="css/main_aside_style.css">
+        <link rel="stylesheet" media="all and (max-width: 767px)" href="css/main_aside_style.css">
         <link rel="stylesheet" href="css/main_section_style.css">
+        <link rel="stylesheet" media="all and (max-width: 767px)" href="css/main_section_style.css">
         <link rel="stylesheet" href="css/footer_style.css">
+        <link rel="stylesheet" media="all and (max-width: 767px)" href="css/footer_style.css">
+    
         <title>Document</title>
     </head>
     <body>
         <div id="bloc_page">
-            <header class="d-flex">
+            <header>
                 <img src="images/logo/Reservia@3x.png" alt="Logo Reservia" class="d-flex" />
                 <nav>
-                    <ul class="d-flex">
+                    <ul>                        
                         <li class="d-flex heb"><a href="index.html#accom">Hébergements</a></li>
                         <li class="d-flex act"><a href="index.html#activity">Activités</a></li>
                         <li class="d-flex signin"><a href="#" id="sign">S'inscrire</a></li>  
@@ -31,7 +39,7 @@
                 </nav>
             </header>
             <main>
-                <header>
+                <header class="d-flex">
                     <h2>Trouvez votre hébergements pour des vacances de rêve</h2>
                     <p id="sentence">En plein centre ville ou en pleine nature</p>
                     <div id="search" class="d-flex">
@@ -41,23 +49,27 @@
                     </div>
 
                     <div id="filter" class="d-flex">
-                       <h3>Filtres</h3>
-                       <div class="filt d-flex">
-                            <i class="fas fa-money-bill-wave  d-flex"></i>
-                            <p>Économique</p>
-                       </div>
-                       <div class="filt d-flex">
-                            <i class="fas fa-child  d-flex"></i>
-                            <p>Familial</p>
-                       </div>
-                       <div class="filt d-flex">
-                            <i class="fas fa-heart  d-flex"></i>    
-                            <p>Romantique</p>
-                       </div>
-                       <div class="filt d-flex">
-                            <i class="fas fa-dog  d-flex"></i>
-                            <p>Animaux autorisés</p>
-                       </div>
+                        <div>
+                            <h3>Filtres</h3>  
+                        </div>
+                        <div class="d-flex" id="filterdiv">
+                            <div class="filt d-flex">
+                                <i class="fas fa-money-bill-wave  d-flex"></i>
+                                <p>Économique</p>
+                            </div>
+                            <div class="filt d-flex">
+                                <i class="fas fa-child  d-flex"></i>
+                                <p>Familial</p>
+                            </div>
+                            <div class="filt d-flex">
+                                <i class="fas fa-heart  d-flex"></i>    
+                                <p>Romantique</p>
+                            </div>
+                            <div class="filt d-flex">
+                                <i class="fas fa-dog  d-flex"></i>
+                                <p>Animaux autorisés</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div id="info" class="d-flex">
@@ -245,7 +257,7 @@
                                 </div>                            
                             </div>
                         </div>
-                    </aside>                    
+                    </aside>
                 </div>
 
                 <section id="activity">

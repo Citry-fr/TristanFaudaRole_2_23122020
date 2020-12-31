@@ -68,3 +68,18 @@ aside #popCards {
   grid-template-columns: 300px;
   gap: 45px;
 }
+
+@media all and (max-width: 767px) {
+  aside {
+    width: auto;
+  }
+
+  aside #popCards {
+    grid-template-columns: auto;
+    gap: 25px;
+  }
+
+  aside .card {
+    width: auto;
+  }
+}

@@ -4,11 +4,12 @@ nav {
 }
 
 nav ul {
+  display: flex;
   list-style-type: none;
-  justify-content: space-around;
   padding: 0px;
   padding-top: 0px;
   margin-top: 0px;
+  justify-content: space-between;
 }
 
 nav #sign {
@@ -23,6 +24,7 @@ nav a {
 
 header {
   justify-content: space-between;
+  display: flex;
 }
 
 header img {
@@ -45,14 +47,6 @@ nav .heb a {
   color: #0065fc;
 }
 
-nav a:hover {
-  color: #0065fc;
-}
-
-nav li:hover {
-  border-top: #0065fc 2px solid;
-}
-
 nav div {
   margin-top: 0px;
   height: 60px;
@@ -60,4 +54,55 @@ nav div {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+ul .logo {
+  flex-basis: 1000px;
+}
+
+@media all and (max-width: 767px) {
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-row: repeat(2, 1fr);
+  }
+  nav .signin {
+    order: -1;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  nav .heb {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  nav .act {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  header img {
+    align-self: flex-start;
+    margin-bottom: 0px;
+  }
+  nav {
+    margin-top: 0px;
+    width: auto;
+    position: relative;
+    bottom: 55px;
+  }
+
+  nav .act {
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  nav .heb {
+    border-top: none;
+    border-bottom: #0065fc 2px solid;
+  }
 }

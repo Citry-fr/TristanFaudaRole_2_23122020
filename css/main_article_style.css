@@ -78,10 +78,25 @@ article a {
   color: black;
 }
 
-article .card:hover {
-  border: 2px solid #0065fc;
-}
+@media all and (max-width: 767px) {
+  #artasi {
+    flex-direction: column-reverse;
+  }
 
-article #more a:hover {
-  color: #0065fc;
+  article {
+    background-color: white;
+  }
+
+  article #cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article .card {
+    width: auto;
+  }
+
+  article .image .cover {
+    width: 509px;
+  }
 }
