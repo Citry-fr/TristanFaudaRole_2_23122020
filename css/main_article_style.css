@@ -97,6 +97,6 @@ article a {
   }
 
   article .image .cover {
-    width: 509px;
+    width: 100%;
   }
 }

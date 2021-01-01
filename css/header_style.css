@@ -61,10 +61,22 @@ ul .logo {
 }
 
 @media all and (max-width: 767px) {
+  header {
+    width: auto;
+  }
+  nav {
+    width: auto;
+  }
   nav ul {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-row: repeat(2, 1fr);
+    grid-template-columns: 50% 50%;
+    grid-row: repeat(2, 50%);
+    min-width: 294px;
+  }
+
+  nav li {
+    width: auto;
+    min-width: 147px;
   }
   nav .signin {
     order: -1;

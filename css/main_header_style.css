@@ -31,7 +31,7 @@ main h2 {
   padding-left: 2px;
 }
 
-main input {
+#search input {
   font-weight: bold;
   font-size: 1.1em;
   padding-left: 15px;
@@ -105,6 +105,11 @@ main input {
   padding-right: 20px;
 }
 
+.filt:hover {
+  color: white;
+  background-color: #0065fc;
+}
+
 /* Info */
 
 #info {
@@ -127,11 +132,6 @@ main input {
   align-items: center;
 }
 
-.filt:hover {
-  color: white;
-  background-color: #0065fc;
-}
-
 @media all and (max-width: 767px) {
   #filter {
     flex-direction: column;
@@ -144,5 +144,40 @@ main input {
 
   .filt {
     margin-top: 10px;
+  }
+
+  #search {
+    width: auto;
+  }
+
+  .fa-map-marker-alt {
+    min-width: 45px;
+    min-height: 45px;
+  }
+
+  button span {
+    display: none;
+  }
+
+  button::before {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    color: white;
+    font-weight: 900;
+  }
+
+  #search button {
+    width: 45px;
+    min-width: 45px;
+  }
+
+  #search input,
+  #searchBox {
+    width: 100%;
+  }
+
+  .filt:active {
+    color: white;
+    background-color: #0065fc;
   }
 }
