@@ -115,3 +115,47 @@ section a:hover {
     margin-top: 0px;
   }
 }
+
+@media all and (max-width: 1199px) and (min-width: 768px) {
+  section {
+    width: auto;
+    padding: 40px;
+  }
+
+  section .activityCards {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(20, 10px);
+  }
+
+  section .one {
+    grid-column: 1;
+    grid-row: 1 / span 10;
+  }
+  section .two {
+    grid-column: 2;
+    grid-row: 1 / span 6;
+  }
+  section .three {
+    grid-column: 2;
+    grid-row: 7 / span 4;
+  }
+
+  section .four {
+    grid-column: 1;
+    grid-row: 11 / span 10;
+  }
+
+  section .five {
+    grid-column: 2;
+    grid-row: 11 / span 5;
+  }
+  section .six {
+    grid-column: 2;
+    grid-row: 16 / span 5;
+  }
+
+  section img {
+    width: 100%;
+    max-width: 100%;
+  }
+}

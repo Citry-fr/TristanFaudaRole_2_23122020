@@ -80,6 +80,25 @@ aside a:hover {
   transition-duration: 0.3s;
 }
 
+@media all and (max-width: 1199px) and (min-width: 768px) {
+  aside {
+    width: auto;
+  }
+
+  aside #popCards {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  aside .card {
+    width: auto;
+    max-width: 300px;
+    min-width: 268px;
+  }
+}
+
 @media all and (max-width: 767px) {
   aside {
     width: auto;

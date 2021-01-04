@@ -106,3 +106,29 @@ article a:hover {
     width: 100%;
   }
 }
+
+@media all and (max-width: 1199px) and (min-width: 768px) {
+  #artasi {
+    flex-direction: column-reverse;
+  }
+
+  article #cards {
+    grid-template-columns: auto auto auto;
+    gap: 35px 35px;
+  }
+
+  article .card {
+    width: auto;
+    max-width: 245px;
+    min-width: 206px;
+    margin: auto;
+  }
+
+  article .image .cover {
+    width: 100%;
+  }
+
+  article {
+    margin-top: 30px;
+  }
+}

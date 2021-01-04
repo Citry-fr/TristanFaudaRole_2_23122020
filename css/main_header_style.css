@@ -78,8 +78,8 @@ main h2 {
 #filter .fas {
   color: #0065fc;
   background-color: #deebff;
-  height: 45px;
-  width: 45px;
+  min-height: 45px;
+  min-width: 45px;
   justify-content: center;
   align-items: center;
   border-radius: 22.5px;
