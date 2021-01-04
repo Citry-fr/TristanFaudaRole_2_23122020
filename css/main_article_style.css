@@ -84,6 +84,10 @@ article a:hover {
   transition-duration: 0.3s;
 }
 
+article #more a:hover {
+  color: #0065fc;
+}
+
 @media all and (max-width: 767px) {
   #artasi {
     flex-direction: column-reverse;
@@ -104,6 +108,10 @@ article a:hover {
 
   article .image .cover {
     width: 100%;
+  }
+
+  article #more a:active {
+    color: #0065fc;
   }
 }
 
@@ -130,5 +138,9 @@ article a:hover {
 
   article {
     margin-top: 30px;
+  }
+
+  article #more a:active {
+    color: #0065fc;
   }
 }

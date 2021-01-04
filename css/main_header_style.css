@@ -182,3 +182,10 @@ main h2 {
     background-color: #0065fc;
   }
 }
+
+@media all and (max-width: 1199px) and (min-width: 768px) {
+  .filt:active {
+    color: white;
+    background-color: #0065fc;
+  }
+}

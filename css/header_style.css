@@ -56,6 +56,14 @@ nav div {
   justify-content: center;
 }
 
+nav li:hover {
+  border-top: 2px solid #0065fc;
+}
+
+nav li a:hover {
+  color: #0065fc;
+}
+
 ul .logo {
   flex-basis: 1000px;
 }
@@ -116,5 +124,23 @@ ul .logo {
   nav .heb {
     border-top: none;
     border-bottom: #0065fc 2px solid;
+  }
+
+  nav li:active {
+    border-bottom: 2px solid #0065fc;
+  }
+
+  nav li a:active {
+    color: #0065fc;
+  }
+}
+
+@media all and (max-width: 1199px) and (min-width: 768px) {
+  nav li:active {
+    border-top: 2px solid #0065fc;
+  }
+
+  nav li a:active {
+    color: #0065fc;
   }
 }
