@@ -5,7 +5,7 @@
 
 section .activityCards {
   display: grid;
-  grid-template-columns: repeat(4, 304px);
+  grid-template-columns: repeat(4, 311px);
   grid-template-rows: repeat(10, 10px);
   gap: 35px;
   margin-bottom: 100px;
@@ -47,7 +47,7 @@ section .actiCard {
 }
 
 section img {
-  width: 304px;
+  width: 311px;
 }
 
 section .one img,
@@ -68,11 +68,30 @@ section .six img {
   height: 150px;
 }
 
+section .one .actiCard,
+section .four .actiCard {
+  height: 420px;
+}
+
+section .two .actiCard {
+  height: 240px;
+}
+
+section .three .actiCard {
+  height: 150px;
+}
+
+section .five .actiCard,
+section .six .actiCard {
+  height: 195px;
+}
+
 section .actiCard h4 {
-  margin-top: 0px;
+  margin-top: 5px;
   font-weight: bold;
   padding: 5px;
   padding-left: 25px;
+  padding-right: 25px;
 }
 
 section a {
@@ -89,7 +108,9 @@ section a:hover {
 @media all and (max-width: 767px) {
   section {
     width: auto;
-    padding: 40px;
+    padding: 20px;
+    height: 1390px;
+    margin-top: 15px;
   }
 
   section .activityCards {
@@ -97,6 +118,7 @@ section a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
   }
 
   section img {
@@ -108,15 +130,20 @@ section a:hover {
 
   section a {
     width: 100%;
-    height: 200px;
+    max-height: 200px;
   }
 
   section .actiCard h4 {
-    margin-top: 0px;
+    margin-top: 6px;
+  }
+
+  section .actiCard {
+    max-height: 200px;
+    min-height: 200px;
   }
 }
 
-@media all and (max-width: 1199px) and (min-width: 768px) {
+@media all and (max-width: 1350px) and (min-width: 768px) {
   section {
     width: auto;
     padding: 40px;

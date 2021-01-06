@@ -127,13 +127,17 @@ main h2 {
   color: #0065fc;
   border: 1px #d9d9d9 solid;
   border-radius: 10px;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   justify-content: center;
   align-items: center;
 }
 
 @media all and (max-width: 767px) {
+  main header {
+    margin-top: 0px;
+    padding-left: 10px;
+  }
   #filter {
     flex-direction: column;
     align-items: flex-start;
@@ -144,11 +148,15 @@ main h2 {
   }
 
   .filt {
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   #search {
     width: auto;
+  }
+
+  #searchBox {
+    border-right: none;
   }
 
   .fa-map-marker-alt {
@@ -170,6 +178,9 @@ main h2 {
   #search button {
     width: 45px;
     min-width: 45px;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
   }
 
   #search input,
@@ -183,7 +194,7 @@ main h2 {
   }
 }
 
-@media all and (max-width: 1199px) and (min-width: 768px) {
+@media all and (max-width: 1350px) and (min-width: 768px) {
   .filt:active {
     color: white;
     background-color: #0065fc;

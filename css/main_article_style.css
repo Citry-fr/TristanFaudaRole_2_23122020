@@ -1,5 +1,6 @@
 main #artasi {
   justify-content: space-between;
+  gap: 50px;
 }
 
 article {
@@ -91,15 +92,18 @@ article #more a:hover {
 @media all and (max-width: 767px) {
   #artasi {
     flex-direction: column-reverse;
+    gap: 0px;
   }
 
   article {
     background-color: white;
+    padding: 20px;
   }
 
   article #cards {
     display: flex;
     flex-direction: column;
+    gap: 15px;
   }
 
   article .card {
@@ -115,9 +119,10 @@ article #more a:hover {
   }
 }
 
-@media all and (max-width: 1199px) and (min-width: 768px) {
+@media all and (max-width: 1350px) and (min-width: 768px) {
   #artasi {
     flex-direction: column-reverse;
+    gap: 0px;
   }
 
   article #cards {
@@ -137,7 +142,7 @@ article #more a:hover {
   }
 
   article {
-    margin-top: 30px;
+    margin-top: 0px;
   }
 
   article #more a:active {

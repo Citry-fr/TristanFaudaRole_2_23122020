@@ -80,7 +80,7 @@ aside a:hover {
   transition-duration: 0.3s;
 }
 
-@media all and (max-width: 1199px) and (min-width: 768px) {
+@media all and (max-width: 1350px) and (min-width: 992px) {
   aside {
     width: auto;
   }
@@ -102,11 +102,33 @@ aside a:hover {
 @media all and (max-width: 767px) {
   aside {
     width: auto;
+    border-radius: 0px;
+    padding: 20px;
   }
 
   aside #popCards {
     grid-template-columns: auto;
-    gap: 25px;
+    gap: 15px;
+  }
+
+  aside .card {
+    width: auto;
+  }
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+  aside {
+    width: auto;
+    padding: 20px;
+  }
+
+  aside #popCards {
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+
+  aside #popCards:last-child {
+    margin-bottom: 20px;
   }
 
   aside .card {

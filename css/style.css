@@ -7,19 +7,21 @@
   display: flex;
 }
 
-#bloc_page {
-  width: 1350px;
+body {
   margin: auto;
+  width: 1350px;
 }
 
 @media all and (max-width: 767px) {
-  #bloc_page {
+  body {
     width: auto;
   }
 }
 
-@media all and (max-width: 1199px) and (min-width: 768px) {
-  #bloc_page {
+@media all and (max-width: 1350px) and (min-width: 768px) {
+  body {
     width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
