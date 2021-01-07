@@ -1,6 +1,7 @@
 main header {
-  margin-top: 30px;
+  margin-top: 10px;
   flex-direction: column;
+  width: auto;
   /* border: 1px solid black; */
 }
 
@@ -194,7 +195,7 @@ main h2 {
   }
 }
 
-@media all and (max-width: 1350px) and (min-width: 768px) {
+@media all and (max-width: 1199px) and (min-width: 768px) {
   .filt:active {
     color: white;
     background-color: #0065fc;

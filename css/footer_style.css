@@ -1,9 +1,12 @@
 footer {
   background-color: #f2f2f2;
+  width: 1420px;
 }
 
 footer #link {
-  justify-content: space-around;
+  justify-content: flex-start;
+  padding-left: 45px;
+  gap: 250px;
 }
 
 footer h4 {
@@ -34,6 +37,7 @@ footer a:hover {
     width: auto;
     padding-left: 30px;
     padding-top: 15px;
+    gap: 0px;
   }
 
   footer a:active {
@@ -41,7 +45,14 @@ footer a:hover {
   }
 }
 
-@media all and (max-width: 1350px) and (min-width: 768px) {
+@media all and (max-width: 1199px) and (min-width: 768px) {
+  footer {
+    width: 100%;
+  }
+
+  footer #link {
+    gap: 200px;
+  }
   footer a:active {
     color: #0065fc;
   }

@@ -8,17 +8,21 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
   margin: auto;
-  width: 1350px;
+  align-items: center;
 }
 
 @media all and (max-width: 767px) {
   body {
+    display: initial;
     width: auto;
   }
 }
 
-@media all and (max-width: 1350px) and (min-width: 768px) {
+@media all and (max-width: 1199px) and (min-width: 768px) {
   body {
     width: auto;
     padding-left: 10px;

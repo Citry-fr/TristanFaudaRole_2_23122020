@@ -80,7 +80,7 @@ aside a:hover {
   transition-duration: 0.3s;
 }
 
-@media all and (max-width: 1350px) and (min-width: 992px) {
+@media all and (max-width: 1199px) and (min-width: 992px) {
   aside {
     width: auto;
   }
