@@ -2,7 +2,6 @@ main header {
   margin-top: 10px;
   flex-direction: column;
   width: auto;
-  /* border: 1px solid black; */
 }
 
 /* H2 + p */
@@ -22,7 +21,6 @@ main h2 {
 .fa-map-marker-alt {
   display: flex;
   font-size: 1em;
-  /* border: 1px solid black; */
   width: 45px;
   height: 45px;
   justify-content: center;
