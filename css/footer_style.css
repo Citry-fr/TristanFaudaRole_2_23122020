@@ -32,6 +32,11 @@ footer a:hover {
 }
 
 @media all and (max-width: 767px) {
+  footer {
+    width: auto;
+    padding-bottom: 30px;
+  }
+
   footer #link {
     flex-direction: column;
     width: auto;

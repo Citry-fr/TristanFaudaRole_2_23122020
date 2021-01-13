@@ -100,6 +100,11 @@ nav li a:hover {
     grid-row: 1;
   }
 
+  #sign {
+    justify-content: end;
+    padding-right: 40px;
+  }
+
   nav .heb {
     grid-column: 1;
     grid-row: 2;
@@ -113,14 +118,15 @@ nav li a:hover {
   #headerTop img {
     align-self: flex-start;
     margin-bottom: 0px;
-    margin-top: 10px;
-    margin-left: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 125px;
   }
   nav {
     margin-top: 10px;
     width: auto;
     position: relative;
-    bottom: 55px;
+    bottom: 65px;
   }
 
   nav .act {
@@ -138,6 +144,12 @@ nav li a:hover {
 
   nav li a:active {
     color: #0065fc;
+    transition: 5s;
+  }
+
+  nav li a:target {
+    scroll-behavior: smooth;
+    transition: 5s;
   }
 }
 
