@@ -101,7 +101,7 @@ nav li a:hover {
   }
 
   #sign {
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 40px;
   }
 
@@ -144,12 +144,10 @@ nav li a:hover {
 
   nav li a:active {
     color: #0065fc;
-    transition: 5s;
   }
 
-  nav li a:target {
-    scroll-behavior: smooth;
-    transition: 5s;
+  nav li:hover {
+    border-top: none;
   }
 }
 
