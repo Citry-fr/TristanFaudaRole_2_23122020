@@ -4,9 +4,9 @@ main header {
   width: auto;
 }
 
-/* H2 + p */
+/* H1 + p */
 
-main h2 {
+main h1 {
   font-weight: bold;
   font-size: 1.4em;
   margin-bottom: 10px;
