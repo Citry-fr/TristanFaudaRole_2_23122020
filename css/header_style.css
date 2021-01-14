@@ -149,6 +149,9 @@ nav li a:hover {
   nav li:hover {
     border-top: none;
   }
+  nav li a:hover {
+    color: black;
+  }
 }
 
 @media all and (max-width: 1199px) and (min-width: 768px) {
