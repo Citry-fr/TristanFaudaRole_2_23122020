@@ -2,6 +2,7 @@ main header {
   margin-top: 10px;
   flex-direction: column;
   width: auto;
+  min-width: 1100px;
 }
 
 /* H1 + p */
@@ -136,6 +137,7 @@ main h1 {
   main header {
     margin-top: 0px;
     padding-left: 10px;
+    min-width: 0px;
   }
   #filter {
     flex-direction: column;
@@ -156,6 +158,8 @@ main h1 {
 
   #searchBox {
     border-right: none;
+    width: auto;
+    min-width: 100px;
   }
 
   .fa-map-marker-alt {
@@ -198,4 +202,14 @@ main h1 {
     color: white;
     background-color: #0065fc;
   }
+
+  main header {
+    min-width: 0px;
+  }
 }
+
+/* @media all and (max-width: 1323px) and (min-width: 1200px) {
+  main header {
+    padding: 2%;
+  }
+} */

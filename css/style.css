@@ -15,8 +15,11 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
   margin: auto;
   align-items: center;
+  width: auto;
 }
 
 @media all and (max-width: 767px) {
@@ -31,5 +34,11 @@ body {
     width: auto;
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media all and (max-width: 1323px) and (min-width: 1200px) {
+  body {
+    padding-left: 7%;
   }
 }

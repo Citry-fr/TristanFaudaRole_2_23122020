@@ -1,12 +1,14 @@
 footer {
   background-color: #f2f2f2;
-  width: 1420px;
+  width: 120%;
+  min-width: 1300px;
 }
 
 footer #link {
   justify-content: flex-start;
-  padding-left: 45px;
+  padding-left: 8%;
   gap: 250px;
+  width: auto;
 }
 
 footer h4 {
@@ -34,6 +36,8 @@ footer a:hover {
 @media all and (max-width: 767px) {
   footer {
     width: auto;
+    max-width: auto;
+    min-width: auto;
     padding-bottom: 30px;
   }
 
@@ -52,11 +56,15 @@ footer a:hover {
 
 @media all and (max-width: 1199px) and (min-width: 768px) {
   footer {
-    width: 100%;
+    width: auto;
+    max-width: auto;
+    min-width: auto;
   }
 
   footer #link {
     gap: 200px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   footer a:active {
     color: #0065fc;

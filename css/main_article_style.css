@@ -1,6 +1,7 @@
 main #artasi {
   justify-content: space-between;
-  gap: 50px;
+  gap: 3%;
+  width: 100%;
 }
 
 article {
@@ -8,6 +9,7 @@ article {
   padding: 40px;
   padding-top: 30px;
   border-radius: 25px;
+  width: auto;
 }
 
 article h3 {
@@ -60,8 +62,8 @@ article .desc .off {
 
 article #cards {
   display: grid;
-  grid-template-columns: 245px 245px 245px;
-  gap: 35px 50px;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
 }
 
 article #more {
@@ -97,7 +99,7 @@ article #more a:hover {
   article {
     background-color: white;
     padding: 20px;
-    margin-top: -50px;
+    margin-top: 0px;
   }
 
   article #cards {
@@ -122,7 +124,6 @@ article #more a:hover {
 @media all and (max-width: 1199px) and (min-width: 768px) {
   #artasi {
     flex-direction: column-reverse;
-    gap: 0px;
   }
 
   article #cards {
@@ -142,7 +143,8 @@ article #more a:hover {
   }
 
   article {
-    margin-top: 0px;
+    margin-top: 25px;
+    padding-top: 0%;
   }
 
   article #more a:active {
